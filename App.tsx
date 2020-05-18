@@ -3,7 +3,7 @@ import * as Font from 'expo-font';
 import { AppLoading } from 'expo';
 import { Alert } from 'react-native';
 
-import MainScreen from './screens/MainScreen';
+import LoadingScreen from './screens/LoadingScreen';
 
 const fetchFonts = () => {
   return Font.loadAsync({
@@ -21,6 +21,6 @@ export default function App() {
   }
 
   return (
-    <MainScreen />
+    <LoadingScreen />
   );
 }
