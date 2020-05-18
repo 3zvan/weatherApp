@@ -13,7 +13,6 @@ type DetailProps = {
 let windDirection: number;
 
 const DetailText = (props: DetailProps) => {
-    console.log(props.windDirection ? props.windDirection : '');
     return (
         <View style={styles.container}>
             <View style={styles.labelContainer}>

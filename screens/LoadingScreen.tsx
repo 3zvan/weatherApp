@@ -15,7 +15,6 @@ const LoadingScreen = () => {
         fetch('https://api.openweathermap.org/data/2.5/weather?q=Budapest&units=metric&appid=a1400cec09afef0be604508a5579e6c4')
             .then(response => response.json())
             .then(data => {
-                console.log(data);
                 setFetchedData(data);
                 setIsFetched("done");
             })
