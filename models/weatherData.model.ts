@@ -2,7 +2,8 @@ export interface WeatherData {
     weather: [{
         main: string,
         description: string,
-        icon: string
+        icon: string,
+        id: number
     }],
     main: {
         temp: number,
