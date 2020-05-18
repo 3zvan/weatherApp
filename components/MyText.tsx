@@ -1,9 +1,9 @@
 import React from 'react';
-import { Text, StyleSheet } from 'react-native';
+import { Text, StyleSheet, TextStyle } from 'react-native';
 
 interface textProps {
     text: string,
-    style: StyleSheet
+    style?: TextStyle
 }
 
 const MyText = (props: textProps) => {
